@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/bootstrap-5/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/wow/animation.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/semantic/semantic.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <header class="page-header">
+        <div class="container-header clearfix">
+            <div class="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+            <div class="toggle-menu">
+                <img src="./images/ico-menu.png" alt="">
+            </div>
+            <div class="main-menu">
+                <ul class="ul-main">
+                    <li><a href="#" class="md-section-1">Giới thiệu</a></li>
+                    <li><a href="#" class="md-section-2">Triết lí</a></li>
+                    <li><a href="#" class="md-section-3">Báo chí về chúng tôi</a></li>
+                    <li><a href="#" class="md-section-4">Cơ hội nhượng quyền</a></li>
+                    <li><a href="edu-preneur.html" >Edu Preneur</a></li>
+                    <li><a href="#" class="register md-section-5">Đăng ký</a></li>
+
+                </ul>
+            </div>
+            <a href="#" class="register-mb">Đăng ký</a>
+        </div>
+        <div class="banner">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./images/banner.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="./images/banner-1.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </header><!-- .page-header -->
+    <div class="page-main">
+        <div class="section-1" id="section-1">
+            <div class="container">
+                <form action="" id="ggcontact2">
+                    <h1>Đăng ký nhận<br> thông tin nhượng quyền</h1>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Họ và tên *</label>
+                            <input type="text" name="name">
+                            <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
+                        </div>
+                        <div class="md-row">
+                            <label for="">Email *</label>
+                            <input type="email" name="email">
+                            <!-- <p class="error">Vui lòng nhập email</p> -->
+                        </div>
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Số điện thoại *</label>
+                            <input type="tel" name="phone">
+                            <!-- <p class="error">Vui lòng nhập số điện thoại</p> -->
+                        </div>
+                        <div class="md-row">
+                            <label for="">Tỉnh/Thành phố</label>
+                            <input type="text" name="city">
+                        </div>
+                    </div>
+                    <input type="hidden" name="register_date" class="current-date" />
+                    <div class="md-col-bt">
+                        <span><img src="./images/ico-arrow.png" alt=""></span>
+                        <input id="gg-submit2" type="button" value="Gửi thông tin" onclick="App.Dev.register2()">
+                    </div>
+                    <div id="modal-sucess" class="md-modal-fancybox" >
+                        <p>Cám ơn bạn đã đăng ký tư vấn, chúng tôi sẽ liên hệ lại với bạn!</p>
+                    </div>                 
+                </form>
+            </div>
+            <div class="md-psp">
+                <div class="container">
+                    <div class="top-content">
+                        <h2>Về TOMATO</h2>
+                        <p>Được thành lập từ năm 2013, TOMATO EDUCATION là một tổ chức giáo dục luôn đi tiên phong trong việc giới thiệu các triết lý và chương trình giáo dục tiến bộ nhân văn cho trẻ em Việt Nam. TOMATO là đơn vị có bề dày kinh nghiệm 1 thập kỷ trong việc đồng hành cùng gia đình để mang đến cho trẻ em và thanh thiếu niên những chương trình giáo dục mới mẻ. Các thương hiệu giáo dục thuộc hệ thống TOMATO Education gồm có:</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href="https://tomato.edu.vn/" target="_blank"><img src="./images/logo.png" alt=""></a>
+                                    <p><strong>Trường Ngoại Khóa TOMATO Children’s Home:</strong> Cung cấp các chương trình giáo dục ngoài giờ chính khóa (after-school) về giáo dục cảm xúc và kỹ năng xã hội,  bồi dưỡng trí tuệ, năng lực tư duy sáng tạo, kỹ năng ngôn ngữ cũng như các kỹ năng thế kỷ 21 để chuẩn bị các em cho tương lai nhiều thử thách.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href="https://mamnon.tomato.edu.vn/" target="_blank"><img src="./images/psp-1.png" alt=""></a>
+                                    <p><strong>Mầm non Đa Trí Thông Minh TOMATO Multiple Intelligences Preschool:</strong> Mô hình “trường mầm non tinh gọn” (micro-school) dễ vận hành, dễ quản lý với triết lý giáo dục tôn trọng thiên hướng và năng khiếu riêng biệt của mỗi trẻ. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content">
+                                    <a href="https://www.yesedu.vn/" target="_blank"><img src="./images/psp-3.png" alt=""></a>
+                                    <p><strong>Học viên Thanh thiếu niên và Bạn trẻ (Youth Empowerment School):</strong> Chuyên về các chương trình khám phá bản thân, định hướng nghề nghiệp và khám phá thế giới dành cho teen và bạn trẻ.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md-sps">
+                <div class="container">
+                    <div class="top-content">
+                        <h2>Triết lý TOMATO</h2>
+                        <p>Mỗi đứa trẻ đều có một tiềm năng, nhưng “nếu chúng ta đánh giá một con cá bằng khả năng leo cây, nó sẽ dành cả cuộc đời để tin rằng mình là đứa ngu đần” (Albert Einstein). Vì thế, trường học không nên là nơi áp đặt những khuôn mẫu cứng nhắc lên trẻ mà cần là một môi trường đa dạng hài hòa nơi trẻ được khám phá chính mình, nơi những tố chất riêng biệt của trẻ được tôn trọng và được trao đầy đủ cơ hội để nảy nở và phát triển.</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-1.png" alt="">
+                            <p><strong>Cách dạy trẻ tốt nhất là học cùng trẻ.</strong> Thực tế, người lớn chúng ta chỉ có thể dạy cho trẻ những điều đã biết, những gì thuộc về quá khứ và hiện tại. Nhưng thế giới còn vô vàn những điều ta chưa biết và tương lai sẽ được tạo nên bởi những điều chưa biết đó. Do đó, trẻ không phải là những chiếc bình rỗng để chúng ta lấp đầy kiến thức hạn hẹp của mình vào đó, mà cần được nhìn nhận như một con người với những suy nghĩ độc đáo, với năng lực sáng tạo và trí tưởng tượng vô tận. Tôn trọng trẻ và trân trọng những suy nghĩ “ngoài khuôn mẫu” của trẻ thơ chính là cách để ta học cùng trẻ và cùng con mở ra cánh cửa đến những điều chưa biết.</p>
+                        </div>
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-2.png" alt="">
+                            <p><strong>Trẻ thơ cần được trao niềm tin vào bản thân mình,</strong> rằng cho dù các con chưa phải là những con người hoàn hảo nhất, nhưng các con đã, đang và sẽ tốt hơn mỗi ngày. Vì điều quan trọng không phải là tốt nhất, mà là tốt hơn mỗi ngày. </p>
+                        </div>
+                        <div class="md-col clearfix">
+                            <img src="./images/sps-3.png" alt="">
+                            <p><strong>“Cần cả làng để nuôi dạy một đứa trẻ”/ “It takes a village to raise a child”</strong> (Ngạn ngữ châu Phi). Việc nuôi dạy một đứa trẻ thành người không chỉ là nghĩa vụ của riêng những người sinh ra trẻ hay của trường học mà cần sự chung tay của mọi mắt xích quan trọng xung quanh trẻ, của cả cộng đồng. Vì thế, chúng tôi coi trọng việc gắn kết chặt chẽ giữa gia đình - nhà trường - xã hội trong mọi hoạt động của mình, Chúng tôi cũng xem việc tham gia giải quyết các vấn đề chung của cộng đồng là một trách nhiệm đương nhiên của mình với vai trò người làm giáo dục.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <h2>Hình ảnh hoạt động</h2>
+            <div class="slide-images clearfix">
+                <div class="md-col md-col-1">
+                    <div><a data-fancybox="gallery" href="./images/slide-1.jpg"><img src="./images/slide-1.jpg"></a></div>
+                </div>
+                <div class="md-col">
+                    <div><a data-fancybox="gallery" href="./images/slide-2.jpg"><img src="./images/slide-2.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-3.jpg"><img src="./images/slide-3.jpg"></a></div>
+                </div>
+                <div class="md-col">
+                    <div><a data-fancybox="gallery" href="./images/slide-4.jpg"><img src="./images/slide-4.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-5.jpg"><img src="./images/slide-5.jpg"></a></div>
+                </div>
+                <div class="md-col md-col-2 md-desktop">
+                    <div><a data-fancybox="gallery" href="./images/slide-6.jpg"><img src="./images/slide-6.jpg"></a></div>
+                    <div><a data-fancybox="gallery" href="./images/slide-7.jpg"><img src="./images/slide-7.jpg"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-3">
+            <div class="container">
+                <div class="md-cnq">
+                    <div class="top-content">
+                        <h2>Cơ hội Nhượng quyền</h2>
+                        <p>Nhượng quyền các mô hình của TOMATO Education mang đến cho những ai có ý định đầu tư hoặc tham gia vào giáo dục nhiều lợi thế để bắt đầu.</p>
+                    </div>
+                    <div class="main-content">
+                        <p><strong>1. Thành công đã được chứng minh:</strong> TOMATO Education có bề dày thành công nổi bật, thể hiện rõ qua lịch sử phát triển, sự hài lòng của học sinh và cộng đồng phụ huynh luôn ủng hộ. Tham gia mạng lưới nhượng quyền của chúng tôi có nghĩa là tận dụng một mô hình đã được chứng minh về sự xuất sắc trong giáo dục.</p>
+                        <p><strong>2. Thương hiệu đã được khẳng định:</strong> TOMATO là một thương hiệu được công nhận và tôn trọng. Uy tín tiếng về chất lượng và sự đổi mới của TOMATO sẽ mở ra cánh cửa và xây dựng niềm tin trong cộng đồng của bạn.</p>
+                        <p><strong>3. Giáo dục toàn diện:</strong> Triết lý giáo dục của TOMATO hướng đến việc phát triển học sinh trở thành những cá nhân phát triển hài hòa, từ trí tuệ, kỹ năng đến nhân cách. Với tư cách là đối tác nhượng quyền, bạn sẽ góp phần tạo ra những ảnh hưởng tích cực và định hình thế hệ tương lai ngay chính tại địa phương của mình.</p>
+                        <p><strong>4. Chương trình giảng dạy phù hợp:</strong> Các chương trình giảng dạy của TOMATO được thiết kế tỉ mỉ, tích hợp các triết lý giáo dục mới nhất và các phương pháp thực hành tốt nhất trên thế giới. Bạn sẽ có quyền truy cập vào các tài liệu giáo dục và nguồn kiến thức chuyên môn toàn diện TOMATO cung cấp cho đối tác.</p>
+                        <p><strong>5. Hỗ trợ toàn diện:</strong> TOMATO Education luôn sát cánh bên các bên nhận quyền của mình trên mọi bước đường. Từ thiết lập và đào tạo ban đầu đến hỗ trợ liên tục và hỗ trợ truyền thông, tuyển sinh, chúng tôi cam kết mang lại thành công cho bạn.</p>
+                        <p><strong>6. Chương trình đa dạng:</strong> TOMATO Education cung cấp nhiều chương trình đa dạng, từ nhà trẻ, mẫu giáo đến tiểu học, thanh thiếu niên. Sự đa dạng này cho phép bạn phục vụ nhiều đối tượng nhân khẩu học, đảm bảo lượng học sinh  ổn định.</p>
+                        <p><strong>7. Quan hệ đối tác toàn cầu:</strong> TOMATO Education hợp tác với các tổ chức giáo dục toàn cầu có uy tín, đảm bảo rằng chương trình giảng dạy và phương pháp của chúng tôi đạt đẳng cấp thế giới. Là đối tác nhượng quyền, bạn sẽ được hưởng lợi từ những mối quan hệ hợp tác giá trị này.</p>
+                    </div>
+                    <p class="in-short">Tóm lại, nhượng quyền với TOMATO Education không chỉ là một khoản đầu tư; đó là cơ hội để trở thành chất xúc tác cho sự thay đổi trong lĩnh vực giáo dục. Hãy tham gia cùng chúng tôi trong việc định hình lại bối cảnh giáo dục của Việt Nam, bắt đầu bằng việc thiết lập một mô hình giáo dục bổ ích, có tác động và thành công do chính bạn dẫn dắt.</p>
+                </div>
+                <div class="md-tcol clearfix">
+                    <div class="left-content">
+                        <h3>Nhượng quyền Ngoại khóa</h3>
+                        <div class="content">
+                            <p><strong>Giới thiệu về TOMATO Children’s Home - Trường Ngoại khóa chuyên sâu đầu tiên tại Việt Nam (Dành cho trẻ từ 2 - 11 tuổi)</strong></p>
+                            <p><strong>Trường Ngoại khóa TOMATO (TOMATO Children’s Home)</strong> như một ngôi nhà ấm áp với không gian xinh xắn, thân thiện. Các khóa học và hoạt động của Trường nhằm bổ khuyết cho trẻ những gì quan trọng nhưng chưa được trang bị đầy đủ ở môi trường học tập chính khóa cũng như ở gia đình. Các chương trình cho trẻ hướng đến các mục tiêu:</p>
+                            <span>. Giúp trẻ hình thành và rèn luyện các kỹ năng sống thiết yếu</span>
+                            <span>. Giúp trẻ phát triển trí tuệ, khả năng tư duy</span>
+                            <span>. Nuôi dưỡng tâm hồn, tình cảm của trẻ, dạy trẻ biết yêu thương để được yêu thương.</span>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Một số chương trình Ngoại khóa nổi bật dành cho bé từ 2 đến 11 tuổi
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <div class="md-text">
+                                        <p>KỸ NĂNG SỐNG TOÀN DIỆN</p>
+                                        <span><strong>- SMART PLAY -</strong> Chơi để trẻ thông minh hơn</span>
+                                        <span><strong>- STRONG START -</strong> Để bé vào lớp 1 tự tin, vững vàng</span>
+                                        <span><strong>- KID POWER -</strong> Bộ ba kỹ năng thiết yếu cho tuổi tiểu học</span>
+                                    </div>
+                                    <div class="md-text">
+                                        <p>GIÁO DỤC CẢM XÚC VÀ KỸ NĂNG HỘI</p>
+                                        <span><strong>-  MINDFUL KIDS -</strong> Kỹ năng tập trung và làm chủ suy nghĩ</span>
+                                        <span><strong>-  MIND MAP FOR KIDS -</strong> Bé ghi nhớ và học tốt với bản đồ tư duy</span>
+                                    </div>
+                                    <div class="md-text">
+                                        <p>KỸ NĂNG NGÔN NGỮ</p>
+                                        <span><strong>-  FUN ABC -</strong> Phát triển ngôn ngữ cho trẻ mầm non</span>
+                                        <span><strong>-  HAPPY READ, HAPPY TALK -</strong> Kỹ năng đọc hiểu và trình bày</span>
+                                        <span><strong>-  THE STORY MAKER -</strong> Kỹ năng viết sáng tạo cho trẻ</span>
+                                    </div>
+                                    <div class="md-text">
+                                        <p>KỸ NĂNG TỰ BẢO VỆ BẢN THÂN</p>
+                                        <span><strong>-  STOP & THINKING -</strong> Kỹ năng an toàn và tự bảo vệ bản thân</span>
+                                        <span><strong>-  NET SMART -</strong> Thông minh và an toàn trong thế giới online</span>
+                                    </div>
+                                    <div class="md-text">
+                                        <p>CÁC CHƯƠNG TRÌNH ĐẶC BIỆT</p>
+                                        <span><strong>-  TOMATO SUMMER SCHOOL -</strong> Trường hè TOMATO</span>
+                                        <span><strong>-  TRAVELING SCHOOL -</strong> Trường học dịch chuyển</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Lợi ích khi nhượng quyền Ngoại khóa TOMATO
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p><strong>- Tiềm năng thị trường:</strong> Nhu cầu về giáo dục ngoài giờ không ngừng tăng khi các bậc phụ huynh ngày càng muốn tìm kiếm các chương trình phát triển toàn diện cho con mình để bổ trợ thêm hoặc giúp giải quyết các vấn đề mà trường học chính khóa chưa giải quyết được.</p>
+                                    <p><strong>- Chi phí thấp:</strong> Mô hình này không yêu cầu cơ sở hạ tầng hoặc nguồn lực lớn. Bạn có thế tích hợp mô hình Ngoại khóa TOMATO trong không gian hiện có của mình, khiến nó trở thành một dự án có hiệu quả về mặt chi phí.</p>
+                                    <p><strong>- Dễ nhân rộng:</strong> Khi bạn thành lập trung tâm ban đầu của mình, bạn có thể dễ dàng mở rộng thêm đến nhiều địa điểm nhờ các giáo án và quy trình hoạt động được đóng gói sẵn và tận dụng được các chi phí thiết lập ban đầu.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <h3>Nhượng quyền Mầm non</h3>
+                        <div class="content">
+                            <p><strong>Giới thiệu về Mầm non Đa Trí Thông Minh TOMATO</strong></p>
+                            <p>Mầm non song ngữ TOMATO là ngôi trường đầu tiên tại Việt Nam triển khai chương trình giảng dạy dựa trên nền tảng học thuyết Trí Thông Minh Đa Dạng (Multiple Intelligences) của giáo sư Howard Gardner (Đại học Harvard). </p>
+                            <p>Chương trình Mầm non của TOMATO mang đến cho trẻ một hành trình phát triển trọn vẹn các năng lực đa dạng nhất của bản thân, cũng như đáp ứng những nhu cầu đặc biệt của trẻ ở từng giai đoạn. Trong đó, hai khía cạnh ngôn ngữ và cảm xúc của trẻ đặc biệt được coi trọng vì trẻ phát triển vững vàng ở hai khía cạnh này sẽ có sự phát triển vững chắc và hạnh phúc trong tương lai.</p>
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    Mầm non TOMATO có gì khác biệt
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>- Một môi trường với triết lý giáo dục nhân văn, một nơi con đi đến không chỉ để học mà còn để sống đứng như một đứa trẻ mỗi ngày.</p>
+                                    <p>- Phương pháp “Đa trí thông minh” giúp thiên hướng riêng của trẻ được nhận biết, tôn trọng và bồi đắp để phát triển.</p>
+                                    <p>- Các hoạt động học tập, khám phá và vui chơi độc đáo, mới mẻ, với nhiều nội dung có tại TOMATO.</p>
+                                    <p>- Môi trường học thân thiện cho phép quan tâm sâu sát và có lộ trình phát triển riêng cho từng trẻ.</p>
+                                    <p>- Lộ trình hội nhập dành cho những bé mới đi đến trường, giúp trải nghiệm “lần đầu xa nhà” của bé êm đềm, đáng nhớ thay vì là một trải nghiệm nhiều nước mắt.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Lợi ích khi nhượng quyền TOMATO
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p><strong>- Phương pháp nổi tiếng và dễ tiếp cận với các gia đình:</strong> Đa Trí Thông Minh không chỉ là một phương pháp nổi tiếng đã được chứng mình, mà còn phù hợp với các gia đình đang tìm kiếm  một trải nghiệm giáo dục toàn diện cho con cái họ. Không như nhiều triết lý khác nghe có vẻ trừu tượng và khó hiểu, Đa Trí Thông Minh là một triết lý được phụ huynh dễ dàng hiểu, đón nhận và ủng hộ.</p>
+                                    <p><strong>- Thiết lập dễ dàng, thuận lợi:</strong> Không giống như một số phương pháp chuyên biệt đòi hỏi giáo viên phải được đào tạo đặc biệt hoặc phải trang bị các học cụ, trang thiết bị tốn kém, mô hình Mầm non Đa Trí Thông minh TOMATO có thể dễ dàng được thiết lập từ những nguồn lực có sẵn và thuận lợi để tích hợp với chương trình khung có sẵn của cơ quan quản lý giáo dục.</p>
+                                    <p>Chương trình giảng dạy và gói đào tạo giáo viên được thiết kế sẵn và có thể linh hoạt điều chỉnh: Các chương trình giảng dạy được đóng gói kỹ lưỡng để chuyển giao ngay, nhưng cũng mang lại sự linh hoạt cho đối tác nhượng quyền để điều chỉnh cho phù hợp với nhu cầu và bối cảnh cụ thể của mình.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="container">
+                <div class="md-banner">
+                    <h2>Báo chí về TOMATO</h2>
+                    <img src="./images/banner-sc4.jpg" alt="">
+                </div>
+                <div class="row main-content">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-1.png" alt="">
+                            <h3>Trường mẫu giáo của con là một trái cà chua</h3>
+                            <p>Tôi đã có được trải nghiệm cảm xúc tuyệt vời này khi tới thăm trường Mầm non theo phương pháp Đa trí thông minh (TOMATO Multiple Intelligences School), ở phường Tân Phú, Quận 7, TP. Hồ Chí Minh...</p>
+                            <a href="https://afamily.vn/truong-mau-giao-cua-con-la-mot-trai-ca-chua-20171222051046654.chn" target="_blank" >Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-2.png" alt="">
+                            <h3>Xu hướng mới: học kỹ năng để vào lớp 1</h3>
+                            <p>Sáng thứ bảy một ngày đầu tháng 4, Trường ngoại khóa Tomato đông kín người. Các giáo viên ở đây cho biết đa số các bé theo học vào những ngày cuối tuần là học lớp “Thông minh cảm xúc”, “Bé vào lớp 1 tự tin, vững vàng”...</p>
+                            <a href="https://tuoitre.vn/xu-huong-moi-hoc-ky-nang-de-vao-lop-1-734051.htm" target="_blank">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-3.png" alt="">
+                            <h3>Hai đội Việt Nam dự hội nghị về trẻ em lớn nhất thế giới năm 2022</h3>
+                            <p>Các bạn nhỏ Việt Nam trình bày dự án quanh chủ đề trồng cây, bảo vệ môi trường tại hội nghị Trẻ em thế giới 2022 của Phong trào Design For Change (DFC) diễn ra tại Kuala Lumpur, Malaysia....</p>
+                            <a href="https://dantri.com.vn/an-sinh/hai-doi-viet-nam-du-hoi-nghi-ve-tre-em-lon-nhat-the-gioi-nam-2022-20221121110403877.htm" target="_blank">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-4.png" alt="">
+                            <h3>Đối thoại với thế hệ Z: Cá tính hay quái tính?</h3>
+                            <p>Ở Gen Z, cùng với sự thay đổi về thể chất, tâm lý của các bạn cũng có nhiều biến đổi phức tạp. Không như độ tuổi mầm non hay tiểu học, cha mẹ có thể dễ dàng vỗ về, nhiều phụ huynh cảm nhận sự xa cách rõ rệt của con cái, kể từ khi con bước vào độ tuổi teen.</p>
+                            <a href="https://thegioihoinhap.vn/loi-song/van-hoa-giao-duc/doi-thoai-voi-the-he-z-ca-tinh-hay-quai-tinh/" target="_blank">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-1.png" alt="">
+                            <h3>Chính thức ra mắt phong trào trẻ em lớn thế giới DFC: Cha mẹ hãy biết tin tưởng vào “siêu năng lực” của con</h3>
+                            <p>Đã qua rồi cái thời “Trẻ em như búp trên cành, biết ăn, biết ngủ, học hành là ngoan”, cuộc sống hiện đại khiến thế hệ trẻ em có nhiều suy nghĩ mới. Vỏ bọc che chở của phụ huynh có thể khiến con mình thiếu tự tin, thụ động, không phát huy được “siêu năng lực” và tài năng của mình..</p>
+                            <a href="https://afamily.vn/chinh-thuc-ra-mat-phong-trao-tre-em-lon-the-gioi-dfc-cha-me-hay-biet-tin-tuong-vao-sieu-nang-luc-cua-con-20180529164012908.chn" target="_blank">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="./images/sc4-img-5.png" alt="">
+                            <h3>Nguyễn Thúy Uyên Phương: Trẻ em là tấm gương phản ánh chính xác bức tranh xã hội</h3>
+                            <p>Nguyễn Thúy Uyên Phương, người sáng lập trường Tomato, từ khi còn ngồi trên giảng đường của Trường Đại học Ngoại thương TP. Hồ Chí Minh đã là gương mặt gây chú ý trong giới trẻ bởi những sáng tác văn học sâu sắc và nhiều hoạt động gây tiếng vang trong phong trào sinh viên.</p>
+                            <a href="https://doanhnhanplus.vn/nguyen-thuy-uyen-phuong-nguoi-sang-lap-truong-tomato-tre-em-la-tam-guong-phan-anh-chinh-xac-buc-tranh-xa-hoi-74104.html" target="_blank">Xem chi tiết <span><img src="./images/ico-arrow-2.png" alt=""></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-5">
+            <div class="container">
+                <div class="main-content">
+                    <h2>Câu hỏi thường gặp</h2>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Nhượng quyền TOMATO Education cụ thể là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Chương trình Nhượng quyền của TOMATO Education mang đến cho các nhà đầu tư hoặc các nhà giáo dục cơ hội sở hữu và vận hành một trung tâm ngoại khóa hay trường mầm non của riêng mình dưới thương hiệu TOMATO. Khi trở thành đối tác nhượng quyền của TOMATO, bạn sẽ được cấp phép sử dụng các thương hiệu đã có tên tuổi thuộc hệ thống TOMATO, cũng như được chuyển giao giáo án, hỗ trợ đào tạo chuyên môn, cách thức vận hành, và các kinh nghiệm khác để điều hành trung tâm giáo dục của bạn.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Điểm khác biệt chính giữa các thương hiệu TOMATO Children’s Home, TOMATO Multiple Intelligences Preschool và Youth Empowerment School là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse " aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <p>- TOMATO Children’s Home tập trung vào các chương trình <strong>ngoại khóa</strong> cho tuổi <strong>mầm non và tiểu học.</strong></p>
+                            <p>- Youth Empowerment School tập trung vào các chương trình <strong>ngoại khóa</strong> cho tuổi <strong>teen và bạn trẻ.</strong></p>
+                            <p>- TOMATO Multiple Intelligences Preschool là mô hình <strong>mầm non</strong> được xây dựng theo phương pháp giáo dục Đa Trí Thông Minh.</p>
+                            <p>Đối tác nhượng quyền có thể chọn một hoặc một vài trong số các mô hình trên sao cho phù hợp nhất với mục tiêu và nhu cầu thị trường địa phương của mình.</p>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Tôi có cần kinh nghiệm trước về giáo dục để nhượng quyền với TOMATO không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Không, kinh nghiệm trước đây trong lĩnh vực giáo dục là không bắt buộc. Chúng tôi cung cấp đào tạo và hỗ trợ toàn diện cho tất cả các đối tác nhượng quyền của mình, đảm bảo bạn có kiến thức và công cụ cần thiết để vận hành một trung tâm giáo dục thành công.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Tôi có thể nhượng quyền cả mô hình ngoại khóa và  mầm non ở một địa điểm không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Có, bạn có thể vận hành cả hai mô hình này dưới một địa điểm nếu bạn thấy rằng điều này phù hợp với nhu cầu giáo dục và nhu cầu của cộng đồng tại địa phương của bạn. Các quy trình hỗ trợ nhượng quyền của chúng tôi có thể hướng dẫn bạn thực hiện được điều này.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Tôi sẽ nhận được những hỗ trợ nào với tư cách là Đối tác nhượng quyền TOMATO?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Chúng tôi cung cấp hỗ trợ sâu rộng cho những đối tác nhượng quyền, bao gồm hỗ trợ thiết lập ban đầu, đào tạo giáo viên, chuyển giao triển khai chương trình giảng dạy, marketing và tuyển sinh, hướng dẫn vận hành liên tục, v.v. Mục tiêu của chúng tôi là giúp bạn thành công trong mọi khía cạnh hoạt động của trung tâm giáo dục của bạn.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Chi phí để mở nhượng quyền thương mại TOMATO là bao nhiêu?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Chi phí đầu tư ban đầu có thể khác nhau tùy thuộc vào các yếu tố như vị trí, ý tưởng và quy mô. Chúng tôi sẽ cung cấp cho bạn thông tin tài chính chi tiết trong quá trình đăng ký nhượng quyền để giúp bạn hiểu các chi phí liên quan là gì.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Những khu vực/ địa bàn nào có thể nhượng quyền? Tôi có thể độc quyền mô hình TOMATO ở một địa bàn nào đó không?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">TOMATO hiện triển khai nhượng quyền ở nhiều khu vực khác nhau. Bạn có thể độc quyền mô hình TOMATO tại một địa bàn nếu đáp ứng một số điều kiện đặt ra. Vui lòng liên hệ với đại diện của chúng tôi để thảo luận về các cơ hội hợp tác ở địa điểm bạn mong muốn.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingEight">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Mở một cơ sở của TOMATO mất bao lâu?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Thời gian mở một cơ sở của TOMATO có thể thay đổi dựa trên các yếu tố như vị trí, ý tưởng và các quy định pháp lý của địa phương. Trung bình, có thể mất vài tháng kể từ khi ký hợp đồng nhượng quyền cho đến khi khai trương. Bộ phận hỗ trợ nhượng quyền của chúng tôi sẽ hướng dẫn bạn trong suốt quá trình.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingNine">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                            TOMATO có giúp hỗ trợ tài chính, kết nối nguồn lực cho đối tác nhượng quyền không.
+                          </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Mặc dù TOMATO Education không cung cấp tài chính trực tiếp cho đối tác nhượng quyền nhưng chúng tôi có thể hỗ trợ bạn khám phá các lựa chọn khác để tiết kiệm nguồn đầu tư ban đầu như: kết nối bạn với những người có cùng mối quan tâm, các nhà đầu tư tiềm năng, hoặc hợp tác cùng kinh doanh dựa trên việc mỗi bên đóng góp các nguồn lực sẵn có.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Bước tiếp theo nếu tôi muốn nhượng quyền với TOMATO là gì?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Nếu bạn quan tâm đến việc trở thành đối tác nhượng quyền của TOMATO, hãy liên hệ với Bộ phận nhượng quyền của chúng tôi. Chúng tôi sẽ hướng dẫn bạn trong quá trình đăng ký, cung cấp cho bạn thông tin chi tiết và trả lời bất kỳ câu hỏi nào khác mà bạn có thể có. Hành trình sở hữu và vận hành một cơ sở giáo dục của riêng bạn có thể được mở ra từ lần liên hệ đầu tiên này.</div>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-6 section-1">
+            <div class="container">
+                <form action="" id="ggcontact">
+                    <h2>Đăng ký nhận <br>thông tin nhượng quyền</h2>
+                    <p>Vui lòng cung cấp các thông tin dưới đây. Đại diện của chúng tôi sẽ liên hệ lại trong thời gian sớm nhất:</p>
+                    <div class="md-form">
+                        <div class="md-col clearfix">
+                            <div class="md-row">
+                                <label for="input-1">Họ và tên *</label>
+                                <input type="text" name="name">
+                                <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
+                            </div>
+                            <div class="md-row">
+                                <label for="">Email *</label>
+                                <input type="email" name="email">
+                                <!-- <p class="error">Vui lòng nhập email</p> -->
+                            </div>
+                        </div>
+                        <div class="md-col clearfix">
+                            <div class="md-row">
+                                <label for="">Số điện thoại *</label>
+                                <input type="tel" name="phone">
+                                <!-- <p class="error">Vui lòng nhập số điện thoại</p> -->
+                            </div>
+                            <div class="md-row">
+                                <label for="">Tỉnh/Thành phố</label>
+                                <input type="text" name="city">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Chọn mô hình muốn nhượng quyền</label>
+                            <select class="ui dropdown" name="model">
+                                <option value="Ngoại khóa TOMATO Children’s Home">Ngoại khóa TOMATO Children’s Home</option>
+                                <option value="Mầm non TOMATO Multiple Intelligences Preschool">Mầm non TOMATO Multiple Intelligences Preschool</option>
+                                <option value="Học viện Thanh thiếu niên và Bạn trẻ Youth Empowerment School">Học viện Thanh thiếu niên và Bạn trẻ Youth Empowerment School</option>
+                            </select>
+                        </div>
+                        <div class="md-row">
+                            <label for="">Địa điểm nhượng quyền dự kiến </label>
+                            <input type="text" name="address" placeholder="Thành phố nơi bạn đang sinh sống">
+                        </div>
+                    </div>
+                    <div class="md-col md-col-1">
+                        <label for="">Bạn đã từng sở hữu hoặc điều hành một mô hình nhượng quyền trước đây chưa? </label>
+                        <input type="text" name="model_owner">
+                    </div>
+                    <div class="md-col clearfix">
+                        <div class="md-row">
+                            <label for="">Năng lực đầu tư dự kiến (Vui lòng ghi rõ số tiền)</label>
+                            <input type="text" name="invest" placeholder="Vui lòng ghi rõ số tiền bạn sẵn sàng đầu tư">
+                        </div>
+                        <div class="md-row">
+                            <label for="">Nguồn vốn</label>
+                            <input type="text" name="supplier" placeholder="Ví dụ: tiền tiết kiệm cá nhân, khoản vay, nhà đầu tư)...">
+                        </div>
+                    </div>
+                    <div class="md-col">
+                        <label for="input-1">Bối cảnh và Kinh nghiệm</label>
+                        <textarea id="" name="experience" cols="30" rows="3" placeholder="Mô tả ngắn gọn về bạn/ tổ chức của bạn, bao gồm cả những kinh nghiệm liên quan về giáo dục hoặc kinh doanh:"></textarea>
+                    </div>
+                    <div class="md-col">
+                        <label for="">Bạn còn muốn chúng tôi biết thêm điều gì hay có câu hỏi cụ thể nào liên quan đến nhượng quyền giáo dục với TOMATO Education không?</label>
+                        <textarea id="" name="note" cols="30" rows="3" class="md-textarea"></textarea>
+                    </div>
+                    <input type="hidden" name="register_date" class="current-date" />
+                    <div class="md-col-bt">
+                        <span><img src="./images/ico-arrow.png" alt=""></span>
+                        <input id="gg-submit" type="button" value="Gửi thông tin" onclick="App.Dev.register()">
+                    </div>
+                    <div id="modal-sucess-1" class="md-modal-fancybox" >
+                        <p>Cám ơn bạn đã đăng ký tư vấn, chúng tôi sẽ liên hệ lại với bạn!</p>
+                    </div>                 
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="main-content-footer">
+                <div class="logo-footer">
+                    <a href="#"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="row content-footer">
+                    <div class="col-md-4">
+                        <span>Trụ sở chính</span>
+                        <p><strong>RED TOMATO EDUCATION CORPORATION</strong> <br>327/5-7 Nguyễn Trọng Tuyển, Phường 10,  Quận Phú Nhuận, TP Hồ Chí Minh</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span>Giờ hoạt động</span>
+                        <p><strong>Thứ Hai - Thứ Bảy: Từ 08h00 đến 17h30 <br> Chủ Nhật: Từ 08h00 đến 12h00</strong></p>
+                    </div>
+                    <div class="col-md-4">
+                        <span>Liên hệ</span>
+                        <p>Hotline:<strong> 0906 616 212</strong></p>
+                        <ul>
+                            <li><a href="#"><img src="./images/ico-mail.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-zalo.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-fb.png" alt=""></a></li>
+                            <li><a href="#"><img src="./images/ico-ytb.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+<script src="vendor/jquery/jquery.validate.js"></script>
+<script src="vendor/bootstrap/bootstrap.min.js"></script>
+<script src="vendor/bootstrap-5/bootstrap.min.js"></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="vendor/wow/wow.min.js" type="text/javascript"></script>
+<script src="vendor/fancybox/jquery.fancybox.min.js" type="text/javascript" ></script>
+<script src="vendor/semantic/semantic.js" type="text/javascript" ></script>
+<script src="vendor/semantic/semantic.min.js" type="text/javascript" ></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/dcommon.js"></script>
+</html>
